@@ -16,7 +16,7 @@ const MoveiDetails = () => {
       setData(data);
     }
     movieDataFetch();
-  }, [params.id]);
+  }, [params.id,url]);
 
   return (
     <section className="cardsection">
