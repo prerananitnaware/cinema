@@ -57,11 +57,12 @@ const Movielist = ({ apipath, title }) => {
                     padding: "0.5rem 1rem",
                   }}
                 >
-                   <Link to={`movie/${element.id}`}><p
+                   <Link to={`movie/${element.id}`} style={{ textDecoration:"none",color:"#333git"}}><p
                     style={{
                       textAlign: "left",
                       fontWeight: "700",
-                      fontSize: "1.2rem",
+                      fontSize: "1.2rem"
+                     
                     }}
                   >
                     {element.title}
