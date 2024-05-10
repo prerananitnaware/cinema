@@ -17,6 +17,7 @@ const MoveiDetails = () => {
     }
     movieDataFetch();
   }, [params.id]);
+
   return (
     <section className="cardsection">
       <div
